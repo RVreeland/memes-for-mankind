@@ -1,5 +1,6 @@
-<div data-ng-controller="Sidebar as vm">
-  <div class="players">
-    <div class="player" ng-repeat="player in vm.players">{{player}}</div>
-  </div>
+<div id="sidebar-wrapper" data-ng-controller="Sidebar as vm">
+  <ul id="sidebar" class="players">
+    <li>Competitors:</li>
+    <li class="player" ng-repeat="player in vm.players">{{player}}</li>
+  </ul>
 </div>

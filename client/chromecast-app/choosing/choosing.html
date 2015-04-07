@@ -1,7 +1,7 @@
 <div>
-  <h2>The Judge is choosing the winner</h2>
+  <h2>Which meme is superior?</h2>
   <!-- display submitted memes in a grid-->
-  <div data-ng-repeat="player in vm.submissions">
-    <img src="{{player.img}}">
-  </div>
+  <ul class="submissions">
+    <li data-ng-repeat="player in vm.submissions"><img src="{{player.img}}"></li>
+  </ul>
 </div>
