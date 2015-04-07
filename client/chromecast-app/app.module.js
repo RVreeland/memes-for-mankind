@@ -9,7 +9,7 @@
       'app.layout',
       'app.waiting',
       'app.winner',
-      'ui.router'
+      'ui.router',
     ])
 
   .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
